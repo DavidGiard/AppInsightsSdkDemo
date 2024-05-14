@@ -1,0 +1,10 @@
+@{
+    ViewData["Title"] = "Logging Page";
+    var data = ViewBag.Message;
+}
+
+<div class="text-center">
+    <h1 class="display-4">Thank you for logging!</h1>
+    <p class="lead">Level: @data.Level</p>
+    <p class="lead">Message: @data.Message</p>
+</div>
